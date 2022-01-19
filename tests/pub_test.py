@@ -7,7 +7,7 @@ from src.drinks import Drinks
 class TestPub(unittest.TestCase):
 
     def setUp(self):
-        self.pub = Pub("The Prancing Pony", 100.00, "Beer")
+        self.pub = Pub("The Prancing Pony", 100.00)
     
     def test_pub_has_name(self):
         self.assertEqual("The Prancing Pony", self.pub.name)
